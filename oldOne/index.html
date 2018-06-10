@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon"  type="image/png" href="img/favicon.gif">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/animate.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <title>Bakhrom Botiroff | Web portfolio</title>
+</head>
+<body id="top">
+  <section class="container" id="HOME-content">
+    <div class="row" id="header">
+      <header class="clearfix">
+        <div class="wrapper">
+          <h1 id="logo"><span></span><p>BBotiroff.me</p></h1>
+          <i class="fa fa-bars" id="hamIcon"></i>
+          <nav>
+            <a href="#">Home</a>
+            <a href="#" onclick="smoothScroll('photos');">photos</a>
+            <a href="#" onclick="smoothScroll('about-me');">about me</a>
+            <a href="#"  onclick="smoothScroll('forContact');">contact me</a>
+          </nav>
+          </div>
+      </header>
+    </div><!--  closing row -->
+
+    <div class="row" id="infoHeader">
+      <div class = "CenteredHeaderText">
+        <h1 id="animation1" class="animated fadeIn" >My name is Bakhrom Botirov, and I am a web developer..</h1>
+
+      </div>
+    </div><!-- closing Hero section -->
+</section><!-- Closing Home section -->
+
+<a href="#" id="goTop" class="hidden" onclick="smoothScroll('top');"><i class="fa fa-angle-double-up"></i></a>
+<section class="container" id="photos">
+  <div class="row"><h2 id="animation2" class="animated " >PHOTOS</h2><p id="animation3" class="animated " >shot by me..</p></div>
+
+  <div class="gallery" align="center">
+    <div class="preview" align="center">
+      <img name="preview" src="img/img1.jpg" alt=""/>
+    </div>
+    <div class="secondPart">
+      <div class="thumbnails">
+        <img onmouseover="preview.src=img1.src" name="img1" src="img/img1.jpg" alt=""/>
+        <img onmouseover="preview.src=img2.src" name="img2" src="img/img2.jpg" alt=""/>
+        <img onmouseover="preview.src=img3.src" name="img3" src="img/img3.jpg" alt=""/>
+        <img onmouseover="preview.src=img4.src" name="img4" src="img/img4.jpg" alt=""/>
+        <img onmouseover="preview.src=img5.src" name="img5" src="img/img5.jpg" alt=""/>
+      </div>
+    </div><!-- close second part of gallery -->
+  </div><!-- Close the gallery div -->
+</section><!-- Closing Photos section -->
+
+
+
+
+<selection class="container" id="about-me">
+  <div id="about-head">
+    <h2 id="animation4" class="animated " >About</h2>
+  </div>
+  <div id="myInfo">
+    <div>
+      <p>My name is Bakhrom Botirov. I am from Tashkent, Uzbekistan. I am 25 years old. I have been in US since 2015. I have background of web development and IT. I used to serve 200 computers and 4 server in one of biggest company in my country. As of the business owner I have made contracts several start up companies and helped them to grow their businesses.
+      </p><br>
+        <p>My interest to computer and programming world started when I rebuilt my own machine in 5th grade of school. Now looks like the coding is my passion and I want to explore more knowledge build great future for myself.
+        </p>
+    </div>
+  </div>
+</selection><!-- closing about me section  -->
+
+
+<!-- <div class=" lets-talk"> -->
+
+  <selection class="container" id="contact-me" >
+    <div id="wrapper-contactMe">
+      <div class="info" id="contactMe">
+        <h2>Want to work together?</h2>
+        <p>I'm currently accepting new projects and would love to hear about yours. Please take a few moments to tell me about it.</p>
+        <a href="mailto:support@bbotiroff.me"  class="button">Get In Touch</a>
+      </div>
+    </div>
+  </selection>
+<!--
+</div> -->
+
+  <footer id="forContact">
+    <div class="wrapper-content   animated">
+      <div class="footer-content">
+        <div id="social-network">
+          <a  href="https://www.linkedin.com/in/bakhrom-botiroff" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+          <a  href="https://www.facebook.com/bakhrom.botiroff" target="_blank"><i class="fa fa-facebook-square"></i></a>
+          <a  href="https://www.instagram.com/bbotiroff" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a  href="https://telegram.me/bbotiroff" target="_blank"><i class="fa fa-telegram"></i></a>
+          <a  href="mailto:bakhrom.botiroff@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        </div>
+        <p>Bakhrom Botirov &copy; 2017 | Resume </p>
+      </div>
+    </div>
+  </footer>
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
